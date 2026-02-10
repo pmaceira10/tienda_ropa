@@ -1,4 +1,4 @@
-# Proyecto de Análisis de Devoluciones y Recomendación de Tallas
+# Sistema de Analítica y Recomendación para un eCommerce de Moda
 
 ## Índice
 
