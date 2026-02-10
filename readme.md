@@ -233,7 +233,7 @@ Este diagnóstico confirma que el impacto económico de las devoluciones está c
 
 <p align="center">
   <img src="images/talla_palanca.png" width="48%" />
-  <img src="images/coste_atacable_talla.png" width="48%" />
+  <img src="images/coste_atacable.png" width="48%" />
 </p>
 
 El análisis muestra que la talla influye de forma clara en la probabilidad de devolución.  
