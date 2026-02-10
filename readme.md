@@ -371,4 +371,4 @@ Adicionalmente, el impacto estimado de las recomendaciones podría validarse en 
 
 ## 14. Cierre
 
-Este proyecto está concebido como un ejercicio integral de analítica aplicada a negocio. Más allá de los modelos individuales, el valor reside en la coherencia del enfoque, la trazabilidad entre datos y decisiones, y la capacidad de cuantificar el impacto económico de cada intervención propuesta.
+Este proyecto refleja cómo una analítica bien diseñada no solo describe el negocio, sino que permite intervenir en él de forma medible, priorizada y defendible desde una lógica económica.
