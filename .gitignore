@@ -23,3 +23,7 @@ __pycache__/
 venv/
 env/
 .conda/
+
+# artefactos generados
+data/processed/
+*.pkl
