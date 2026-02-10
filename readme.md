@@ -4,17 +4,18 @@
 
 1. Introducción
 2. Objetivo del proyecto
-3. Alcance y enfoque analítico
-4. Arquitectura del proyecto y herramientas
-5. Preparación y calidad de los datos
-6. Análisis del negocio y diagnóstico de devoluciones
-7. Modelo predictivo de devoluciones
-8. La talla como palanca de intervención
-9. Recomendador de tallas y simulación de impacto
-10. Coocurrencias entre categorías y oportunidades de cross-selling
-11. Visualización y toma de decisiones en Power BI
-12. Principales conclusiones
-13. Próximos pasos y posibles mejoras
+3. Arquitectura del proyecto y herramientas
+4. Alcance y enfoque analítico
+5. Preparación y realismo de los datos
+6. Visualización y toma de decisiones en Power BI
+7. Estado general de la tienda
+8. Diagnóstico del impacto económico de las devoluciones
+9. Talla como palanca de intervención
+10. Recomendador de tallas y reducción de devoluciones
+11. Recomendaciones de producto y generación de ingresos incrementales
+12. Conclusiones finales
+13. Limitaciones y próximos pasos
+14. Cierre
 
 ## 1. Introducción
 
@@ -32,7 +33,7 @@ Todo el análisis se apoya en una separación clara de responsabilidades:
 
 El resultado es un proyecto integral que combina análisis descriptivo, modelización predictiva y simulación de impacto, con un enfoque práctico y orientado a negocio.
 
-## Objetivo del proyecto
+## 2. Objetivo del proyecto
 
 El objetivo de este proyecto es construir una **visión analítica completa de una tienda de moda**, utilizando datos reales de clientes, productos, ventas y devoluciones, con el fin de **entender el negocio y proponer soluciones basadas en datos**.
 
@@ -53,7 +54,7 @@ El objetivo final no es únicamente generar modelos o análisis, sino **construi
 
 Todo el proyecto está planteado con un enfoque realista, priorizando la claridad, la coherencia de los datos y la utilidad práctica de los resultados.
 
-## Arquitectura del proyecto y herramientas
+## 3. Arquitectura del proyecto y herramientas
 
 El proyecto está organizado siguiendo un flujo de datos claro, desde la generación y preparación de la información hasta su análisis y visualización final. La arquitectura está pensada para separar responsabilidades y facilitar tanto el análisis como la interpretación de resultados.
 
@@ -86,7 +87,7 @@ En cuanto a herramientas utilizadas:
 
 Esta combinación permite trabajar con datos de forma estructurada, reproducible y orientada a la toma de decisiones.
 
-## Alcance y enfoque analítico
+## 4. Alcance y enfoque analítico
 
 El proyecto tiene un enfoque **analítico y aplicado**, centrado en entender el comportamiento de una tienda de moda y en evaluar posibles mejoras desde el punto de vista del negocio.
 
@@ -103,7 +104,7 @@ No es el objetivo del proyecto:
 
 Las decisiones metodológicas priorizan la **claridad, la interpretabilidad y la utilidad práctica**, con especial énfasis en que los resultados puedan ser entendidos y utilizados desde herramientas de visualización como Power BI.
 
-## Preparación y realismo de los datos
+## 5. Preparación y realismo de los datos
 
 Una parte fundamental del proyecto es la construcción de un conjunto de datos que represente, de la forma más fiel posible, el funcionamiento real de una tienda de moda. Más que centrarse en limpieza exhaustiva, esta fase se orienta a **diseñar datos coherentes, plausibles y alineados con un escenario de negocio real**.
 
@@ -167,7 +168,7 @@ El resultado de esta fase es un conjunto de tablas listas para análisis y visua
 
 Esta base de datos es el pilar sobre el que se apoyan el modelo de devoluciones, el recomendador de tallas y el análisis de coocurrencias, asegurando que las conclusiones obtenidas sean plausibles y accionables.
 
-## Visualización y toma de decisiones en Power BI
+## 6. Visualización y toma de decisiones en Power BI
 
 Todo el análisis desarrollado en el proyecto se consolida en un dashboard interactivo en Power BI, que actúa como capa final de consumo y soporte a la toma de decisiones.
 
@@ -176,7 +177,7 @@ El objetivo de esta visualización no es mostrar métricas aisladas, sino ofrece
 El dashboard está organizado en módulos temáticos que siguen una lógica progresiva, desde una visión agregada del negocio hasta análisis específicos de devoluciones, talla y recomendaciones. A lo largo del proyecto, Power BI se utiliza como herramienta de exploración y validación de resultados, mientras que las vistas y conclusiones más relevantes se documentan a continuación mediante capturas explicativas.
 
 
-## Estado general de la tienda
+## 7. Estado general de la tienda
 
 ![Estado general de la tienda](images/estado_general.png)
 
@@ -186,7 +187,7 @@ A nivel agregado, se observa un crecimiento sostenido de las ventas, con una cla
 
 La distribución por categorías muestra un mix típico del sector moda, donde prendas de mayor valor como abrigos y pantalones concentran una parte significativa de la facturación. Esta visión global sirve como punto de partida para profundizar posteriormente en devoluciones, recomendaciones de talla y análisis de comportamiento.
 
-## Diagnóstico del impacto económico de las devoluciones
+## 8. Diagnóstico del impacto económico de las devoluciones
 
 ![Impacto económico de las devoluciones](images/impacto_devoluciones.png)
 
@@ -229,7 +230,7 @@ En este proyecto, el modelo **no se utiliza para tomar decisiones automáticas**
 
 Este diagnóstico confirma que el impacto económico de las devoluciones está concentrado en un subconjunto de categorías y productos, y que puede ser cuantificado de forma consistente mediante un modelo de riesgo calibrado. Esta visión permite pasar de un análisis descriptivo a un enfoque accionable, sentando la base para evaluar palancas de intervención como la talla y el recomendador asociado.
 
-### Talla como palanca de intervención
+## 9. Talla como palanca de intervención
 
 <p align="center">
   <img src="images/talla_palanca.png" width="48%" />
@@ -243,7 +244,7 @@ Al mismo tiempo, una parte muy relevante del coste esperado de devoluciones se c
 
 Este módulo no pretende eliminar todas las devoluciones, sino identificar qué parte del problema es estructuralmente atacable actuando sobre la talla. De esta forma, se establece un marco realista para diseñar intervenciones efectivas y priorizar categorías donde el impacto económico puede ser mayor.
 
-## Recomendador de tallas y reducción de devoluciones
+## 10. Recomendador de tallas y reducción de devoluciones
 
 Este módulo analiza el impacto real de introducir un recomendador de tallas dentro del proceso de compra, con el objetivo de reducir devoluciones sin introducir fricción innecesaria para el cliente.
 
@@ -328,7 +329,7 @@ La recomendación se muestra **antes de la compra**, como parte de la experienci
 
 En conjunto, este módulo demuestra que es posible reducir el coste esperado de devoluciones mediante recomendaciones de talla **selectivas, explicables y alineadas con métricas económicas reales**, sin necesidad de intervenir de forma masiva ni alterar la experiencia de compra.
 
-## Recomendaciones de producto y generación de ingresos incrementales
+## 11. Recomendaciones de producto y generación de ingresos incrementales
 
 ![Impacto económico de recomendaciones de producto](images/recomendaciones.png)
 
@@ -344,7 +345,7 @@ Este enfoque evita depender de descuentos o modelos complejos y permite desplega
 
 En conjunto, este módulo muestra que incluso estrategias de cross-sell conservadoras, bien seleccionadas y apoyadas en datos, pueden generar un impacto económico relevante sin comprometer la experiencia de usuario.
 
-## Conclusiones finales
+## 12. Conclusiones finales
 
 Este proyecto construye una visión completa de un eCommerce desde el dato hasta la decisión. A partir de un entorno de datos simulado de forma realista, se ha desarrollado una arquitectura analítica que permite entender el negocio, cuantificar problemas relevantes y evaluar soluciones con impacto económico medible.
 
@@ -360,7 +361,7 @@ Todo el análisis se integra en Power BI, que actúa como capa final de explorac
 
 En conjunto, el proyecto no busca optimizar métricas de forma aislada, sino demostrar cómo una arquitectura analítica bien construida puede transformar datos complejos en decisiones accionables, cuantificadas y defendibles desde negocio.
 
-## Limitaciones y próximos pasos
+## 13. Limitaciones y próximos pasos
 
 El proyecto se apoya en datos simulados, diseñados para reproducir patrones realistas de comportamiento, devoluciones y compra. Aunque esto permite un control total del entorno y facilita la validación de enfoques analíticos, los resultados deben interpretarse como estimaciones y no como valores reales de producción.
 
@@ -368,6 +369,6 @@ Como siguiente paso natural, el análisis se ampliará al ámbito del cliente. E
 
 Adicionalmente, el impacto estimado de las recomendaciones podría validarse en un entorno real mediante experimentos controlados (A/B testing), cerrando el ciclo entre análisis, decisión e impacto observado.
 
-## Cierre
+## 14. Cierre
 
 Este proyecto está concebido como un ejercicio integral de analítica aplicada a negocio. Más allá de los modelos individuales, el valor reside en la coherencia del enfoque, la trazabilidad entre datos y decisiones, y la capacidad de cuantificar el impacto económico de cada intervención propuesta.
