@@ -1,0 +1,16 @@
+{
+  "best_params": {
+    "max_depth": 6,
+    "min_child_weight": 80.0,
+    "subsample": 0.9412094073184709,
+    "colsample_bytree": 0.9125923924627691,
+    "gamma": 0.4670300982442571,
+    "lambda": 1.1812354774818865,
+    "alpha": 0.9334420074540684,
+    "eta": 0.022628225947233727
+  },
+  "search_best_iter": 1220,
+  "final_best_iter": 931,
+  "final_pr_auc_val_sklearn": 0.5271969415910482,
+  "num_rounds_used": 1420
+}

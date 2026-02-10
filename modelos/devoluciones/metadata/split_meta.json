@@ -1,0 +1,13 @@
+{
+  "mode": "temporal",
+  "test_size": 0.25,
+  "date_col": "fecha_compra",
+  "n_train": 679083,
+  "n_test": 226362,
+  "target_rate_train": 0.29327048387310534,
+  "target_rate_test": 0.315410713812389,
+  "min_date_train": "2017-08-01 00:00:00",
+  "max_date_train": "2025-01-01 00:00:00",
+  "min_date_test": "2025-01-01 00:00:00",
+  "max_date_test": "2025-09-30 00:00:00"
+}

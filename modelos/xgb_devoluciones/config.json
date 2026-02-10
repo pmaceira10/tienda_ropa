@@ -1,0 +1,36 @@
+{
+  "cut_train_end": "2024-01-01",
+  "cut_calib_end": "2024-09-01",
+  "target": "devuelto",
+  "cat_features": [
+    "categoria",
+    "id_producto"
+  ],
+  "num_features": [
+    "altura_cm",
+    "peso_kg",
+    "bmi",
+    "talla_idx",
+    "ideal_idx",
+    "desajuste",
+    "desajuste_abs",
+    "talla_extrema",
+    "prod_mean_des_smooth",
+    "prod_bias_strength",
+    "prod_has_history"
+  ],
+  "xgb_params": {
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "eta": 0.05,
+    "max_depth": 6,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "lambda": 1.0,
+    "alpha": 0.0,
+    "tree_method": "hist",
+    "seed": 7
+  },
+  "best_iteration": 448
+}

@@ -1,0 +1,25 @@
+# --- bases de datos ---
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# --- datos pesados (si aplica) ---
+data/*.csv
+data/*.parquet
+data/**/*.csv
+data/**/*.parquet
+
+# --- power bi ---
+*.pbix
+
+# --- jupyter ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- entornos ---
+.venv/
+venv/
+env/
+.conda/
